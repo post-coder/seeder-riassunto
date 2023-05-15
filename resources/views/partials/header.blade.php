@@ -1,5 +1,5 @@
 
 <nav>
-  Navbar, fatta bene
+  Navbar
   <hr>
 </nav>
