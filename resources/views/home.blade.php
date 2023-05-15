@@ -2,7 +2,9 @@
 
 
 @section('content')
-
+<h1>
+  Albums
+</h1>
 <ul>
   @foreach($albums as $album)
   
