@@ -8,6 +8,8 @@
   
     <li>
       {{$album->title}} - by {{$album->artist}}
+      <br>
+      {{$album->cover}} - {{$album->cover}}
     </li>
   
   @endforeach

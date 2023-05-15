@@ -17,7 +17,7 @@ class AlbumSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
-        for($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             $newAlbum = new Album();
 
             $newAlbum->title = $faker->words(3, true);
