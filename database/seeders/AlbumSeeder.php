@@ -22,6 +22,7 @@ class AlbumSeeder extends Seeder
 
             $newAlbum->title = $faker->words(3, true);
             $newAlbum->artist = $faker->name();
+            $newAlbum->cover = $faker->word() . '.png';
 
             $newAlbum->save();
         }
